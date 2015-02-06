@@ -1,0 +1,369 @@
+/* PROJECT 3 STYLESHEET */
+
+
+
+/* BODY STYLE */
+body {
+	font-family: Helvetica, Geneva, sans-serif;
+	color: #000000;
+	background-color: #B4FCF8;
+	font-weight: normal;
+	font-size: 1.2em;
+	font-style: normal;
+	line-height: 100%;
+	width: 100%;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#bar {
+	clear:none;
+	width: 100%;
+
+}
+
+/* TABLE HOVER */
+header {
+	float: left;
+	clear:none;
+	width: 80%;
+	padding: 0% 0% 4% 5%;
+}
+
+p.image { 
+	float: left;
+	padding: 0% 5% 0% 0% }
+
+/* TABLE STYLE */
+table {
+	width: 40em;
+	padding: 1em;
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
+	font-size: .8em;
+    text-align: left;
+    background-color: #6EF2EB;
+
+    left: 25%;
+    border-collapse: collapse;
+	display: table;
+}
+
+/* TABLE BORDER */
+table, td, th {
+    border: 0.2em solid #328676;
+}
+
+/* TABLE HOVER */
+tr:hover {
+    background-color: #E6E88F;
+}
+	
+
+/* NAVIGATION BOX */
+nav {
+	float: left;
+	clear: both;
+	width: 62%;
+	margin: .42%;
+	padding: .5% 1.5% .5% 0;
+	background-color: #769E6C;
+	border-radius: 1.563em;
+	text-align: center;
+}
+
+
+
+/* FORM BOX */
+section {
+	width: 25%;
+	padding: 1% 1% 1% 1%;
+	margin: -39% 8.1% 5% 2%;
+	font-size: 1em;
+	color: #000000;
+	border: 0.1em #420061 solid;
+	text-align: left;
+	background-color: #2EDBC6;
+	border-radius: 1.563em;
+	clear: both;
+	float: right;
+}
+
+/*SUBMIT BUTTON NORMAL */
+
+#submit {
+	border : solid 0.0625em #DBDBDB;
+	border-radius : 0.1875em;
+	-webkit-box-shadow : 0 0 0.0625em rgba(0,0,0,1.0);
+	-moz-box-shadow : 0 0 0.0625em rgba(0,0,0,1.0);
+	box-shadow : 0 0 0.0625em rgba(0,0,0,1.0);
+	font-size : 0.938em;
+	color : #ffffff;
+	padding : 0.0625em 0.813em;
+	background : #DBDBDB;
+}
+
+/*SUBMIT BUTTON HOVER */
+
+#submit:hover {
+	border : solid 0.0625em #000000;
+	border-radius : 0.1875em;
+	font-size : 0.938em;
+	color : #000000;
+	padding : 0.0625em 0.813em;
+	background : #A2DB94;
+}
+
+/* INPUT FOCUS */
+
+input:focus {
+	background-color: #fccff1;
+}
+
+
+/* BODY BOX */
+article {
+	float: left;
+	width: 60%;
+	margin: .46%;
+	padding: 1.6%;
+	background-color: #A5DE98;
+	border-radius: 1.563em;
+	clear: both;
+	float: left;
+	
+}
+
+/* PICTURES BOX */
+aside {
+	float: left;
+	width: 25%;
+	margin: .42%;
+	padding: 1.6%;
+	background-color: #8FE8C5;
+	border-radius: 1.563em;
+
+}
+
+/* W3 FOOTER POSITIONING */
+footer {
+	clear: right;
+}
+
+
+/* HEADING1 STYLE */
+h1 {
+	color: #4C3839;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 3.3em;
+	font-style: normal;
+	line-height: 150%;
+	text-align: left;
+}
+
+/* HEADING2 STYLE */
+h2 {
+	color: #45495E;
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 1.84em;
+	font-style: normal;
+	line-height: 100%;
+	text-align: left;
+}
+
+/* HEADING3 STYLE */
+h3 {
+	color: #008DEB;
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-style: normal;
+	line-height: 100%;
+}
+
+/* HEADING 4 STYLE */
+h4 {
+	color: #5E5C45;
+	font-family: "Helvetica", "Geneva", sans-serif;
+	font-weight: bold;
+	font-size: 1.20em;
+	font-style: normal;
+	line-height: 100%;
+	text-align: left;
+	
+}
+
+/* PARAGRAPH STYLE */
+p {
+	color: #000000;
+	font-family: Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.813em;
+	font-style: normal;
+	line-height: 100%;
+	text-indent: 3.125em;
+	
+}
+
+h3 + h4 {
+  text-indent: 0.3em;
+}
+
+p:nth-child(2) {
+    font-size: 1.2em;
+}
+
+p:nth-of-type(8) {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* STRONG STLE */
+p strong {
+	color: #a4fffa;
+	font-weight: bold;
+}
+
+/* LINKS STYLING */
+a[href^="#"]:link {
+    color: #9103d3;
+}
+
+/* VISITED LINKS STYLE */
+a[href^="#"]:visited {
+    color: #06f9e4;
+}
+
+/* HOVER LINK STYLE */
+a[href^="#"]:hover {
+    opacity: 0.4
+  
+}
+
+/* ACTIVE LINK STYLE */
+a[href^="#"]:active {
+    color: #7c717d;
+}
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+
+	table {
+	width: 90%;
+	padding: 0.25em 0.25em ;
+	font-size: .9em;
+    text-align: left;
+    background-color: #6EF2EB;
+    border-collapse: collapse;
+	display: table;
+	}
+
+	p {
+	color: #000000;
+	font-family: Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	}
+	
+	h1 {
+	color: #4C3839;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 2.25em;
+	}
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+
+	table {
+	width: 90%;
+	padding: 0.25em 0.25em ;
+	font-size: .9em;
+    text-align: left;
+    background-color: #6EF2EB;
+    border-collapse: collapse;
+	display: table;
+	}
+	
+  p {
+	color: #000000;
+	font-family: Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	}
+	
+	h1 {
+	color: #4C3839;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 2.25em;
+	}
+}
+
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+	table {
+	width: 90%;
+	padding: 0.25em 0.25em ;
+	font-size: .9em;
+    text-align: left;
+    background-color: #6EF2EB;
+    border-collapse: collapse;
+	display: table;
+	}
+  p {
+	color: #000000;
+	font-family: Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	}
+	
+	h1 {
+	color: #4C3839;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 2.25em;
+	}
+	
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+
+  	table {
+	width: 90%;
+	padding: 0.25em 0.25em ;
+	font-size: .9em;
+    text-align: left;
+    background-color: #6EF2EB;
+    border-collapse: collapse;
+	display: table;
+	}
+  p {
+	color: #000000;
+	font-family: Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	}
+	
+	h1 {
+	color: #4C3839;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 2.25em;
+	}
+
+}
+
+	
+	
+	
+	
+	
