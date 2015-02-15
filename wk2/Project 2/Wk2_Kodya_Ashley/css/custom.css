@@ -1,0 +1,91 @@
+/* Ashley Kodya DWSII 02/2015 Project 2  CSS*/
+
+body {
+	padding-top: 70px;
+}
+
+hr {
+	color: #000000;
+}
+
+header {
+	font-size: 1em;
+
+}
+
+img {
+	padding: 4px;
+}
+
+h1, 
+h2{
+	color: #46E3D1;
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+}
+
+h3 {
+	color: #8B7AFF;
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+}
+
+h4{
+	color: #D62EE9;
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+}
+
+.h1{
+	color: #4FDEC3;
+
+}
+
+tr {
+	font-family: "Georgia", "Book Anitiqua", serif;
+}
+
+td {
+	font-family: "Myriad Pro", "Helvetica", sans-serif;
+}
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #999;
+	text-align: center;
+}
+
+.glyphicon {
+	color: #5D877A;
+
+}
+
+.glyphicon-question-sign {
+	color: #5FEEFF;
+
+}
+
+.glyphicon-chevron-right {
+	color: #ffffff;
+
+}
+
+.btn:hover {
+	color: #FFCC6B;
+}
+
+a:hover {
+	color: #706C5F;
+}
+
+.navbar-inverse {
+	background-color: #F4EAFC;
+	color: #000000;
+
+}
+
+.navbar-inverse:active {
+	background-color: #C0B8C7;
+}
+
+.dropdown-menu {
+	background-color: #A898C9;
+}
